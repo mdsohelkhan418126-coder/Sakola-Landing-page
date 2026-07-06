@@ -65,8 +65,127 @@ nav ul li a:hover,
     background-color 0.3s ease,
     color 0.3s ease;
 }
-
 .menu-btn .signup:hover {
   background-color: var(--primary-color);
   color: #fff;
+}
+/* hero section */
+
+.hero-section {
+  background-color: var(--background-color);
+  padding: 15px;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 15px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+.hero-image {
+  width: 50%;
+}
+.hero-image img {
+  width: 100%;
+}
+.subheading {
+  font-size: var(--Sub-heading-font-size);
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+}
+.heading {
+  font-size: var(--heading-font-size);
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.hero-text h1.heading {
+  width: 60%;
+}
+p {
+  font-size: 1rem;
+  color: var(--primary-text-color);
+  line-height: 1.7rem;
+  font-weight: 400;
+}
+
+.hero-text p {
+  width: 70%;
+  margin-bottom: 20px;
+}
+.btn-group {
+  margin: 24px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+}
+.btn,
+.outline-btn {
+  padding: 16px 38px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+
+  color: #fff;
+
+  border-radius: 12px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.btn:hover,
+.outline-btn:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.btn a {
+  color: #fff;
+}
+.outline-btn a {
+  color: var(--primary-color);
+}
+.outline-btn {
+  background-color: transparent;
+}
+.avator-stats {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.avator-group {
+  display: flex;
+  align-items: center;
+}
+.avator {
+  position: relative;
+  margin-left: -15px;
+}
+.avator-image img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.placholder,.avator-counter {
+  width: 48px;
+  height: 48px;
+  background-color: #333;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
