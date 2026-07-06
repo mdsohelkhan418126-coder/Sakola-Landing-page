@@ -177,7 +177,8 @@ p {
   width: 48px;
   height: 48px;
 }
-.placholder,.avator-counter {
+.placholder,
+.avator-counter {
   width: 48px;
   height: 48px;
   background-color: #333;
@@ -188,4 +189,133 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* about section */
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 15px;
+}
+.about-image,
+.about-info {
+  width: 50%;
+}
+.about-info h2.heading,
+.school-section h2.heading {
+  width: 65%;
+}
+.why-us {
+  margin-top: 40px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.why-us-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 80%;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.why-us-box:hover {
+  transform: scale(1.05);
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 40px;
+}
+
+.text {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edfaff;
+  border-radius: 50%;
+}
+h3 {
+  font-size: 1rem;
+  color: #333;
+  line-height: 40px;
+}
+
+.text img {
+  width: 24px;
+  height: 24px;
+}
+.school-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 15px;
+}
+
+.school-section .text-content p {
+  width: 65%;
+}
+
+/* studing section */
+.studing-content {
+  text-align: center;
+}
+.studing-section h2.heading {
+  width: 42%;
+  margin: 0 auto;
+}
+.class-cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+.class-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+text-align: center;
+}
+.class-card:hover {
+  transform: translate(-10px);
+}
+.course-image{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.course-title{
+    font-size: 1.2rem;
+    color: #040931;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.student-count{
+    color: #555;
+    font-size: 0.87rem;
+    margin-bottom: 10px;
+}
+
+.star-rating{
+    color: #FDC350;
+    font-size: 12px;
+    margin-bottom: 8px;
 }
